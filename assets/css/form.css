@@ -1,0 +1,49 @@
+.formulary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-film {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    border: solid black 0.3px;
+    width: 50%;
+    border-radius: 50px;
+
+}
+
+.new-film, .new-author, .new-date, .new-genre, .submit {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    border-color: rgba(100, 100, 100, 1);
+    border-width: 0.8px;
+    padding-left: 15px;
+    cursor: text;
+}
+
+label {
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.submit {
+    background-color: #42D74C;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+}
+
+.submit:hover {
+    background-color: #37F044;
+}
