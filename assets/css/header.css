@@ -22,7 +22,7 @@ header {
     width: auto;
 }
 
-.image__overlay {
+.image-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -38,25 +38,25 @@ header {
 	transition: opacity 0.25s;
 }
 
-.image__overlay>* {
+.image-overlay>* {
 	transform: translateY(20px);
 	transition: transform 0.25s;
 }
 
-.image__overlay:hover {
+.image-overlay:hover {
 	opacity: 1;
 }
 
-.image__overlay:hover>* {
+.image-overlay:hover>* {
 	transform: translateY(0);
 }
 
-.image__title {
+.image-title {
 	font-size: 2em;
     font-family: 'Limelight', sans-serif;
 }
 
-.image__description {
+.image-description {
 	font-size: 1.25em;
 	margin-top: 0.5em;
     opacity: 0.8;
