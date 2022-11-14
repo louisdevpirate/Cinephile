@@ -5,6 +5,6 @@ body {
 
 @font-face {
     font-family: 'MetalVengeanceItalic';
-    src: url('../../fonts/metal-vengeance-font/MetalVengeanceItalic-owAdd.ttf'), 
-        url('../../fonts/metal-vengeance-font/metalvengeanceitalic-owadd-webfont.woff')
+    src: url('../fonts/metal-vengeance-font/MetalVengeanceItalic-owAdd.ttf'), 
+        url('../fonts/metal-vengeance-font/metalvengeanceitalic-owadd-webfont.woff')
 }
